@@ -1,0 +1,17 @@
+/* Paragraph 3 external CSS */
+.p3 {
+  color: purple;
+  text-decoration: underline;
+}
+
+/* Highlight 3 external CSS */
+.h1external {
+  color: purple;
+  font-style: italic;
+}
+
+/* Building 3 external CSS */
+.h3external {
+  color: purple;
+  text-decoration: underline;
+}
