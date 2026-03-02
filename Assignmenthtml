@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Styling Assignment</title>
+
+  <!-- INTERNAL CSS -->
+  <style>
+    /* Paragraph 2 internal CSS */
+    .p2 {
+      color: orange;
+      font-weight: bold;
+    }
+
+    /* Highlight 2 internal CSS */
+    .h1internal {
+      color: orange;
+      font-weight: bold;
+    }
+
+    /* Building 2 internal CSS */
+    .h3internal {
+      color: orange;
+      font-weight: bold;
+    }
+  </style>
+
+  <!-- EXTERNAL CSS LINK -->
+  <link rel="stylesheet" type="text/css" href="assignmentstyle.css">
+
+</head>
+<body>
+
+  <!-- PARAGRAPHS -->
+  <p style="color: blue; font-style: italic;">The relationship between architectural form and human psychology is a subject of increasing academic interest. It is now understood that the spaces we inhabit are not merely passive backdrops to human activity but are active participants in shaping cognitive function and emotional well-being. A room with high ceilings, for instance, may subconsciously encourage more abstract, creative thought, while a series of low, enclosed spaces can foster a sense of focus and intimacy. This burgeoning field, often termed 'neuro-architecture', seeks to codify these effects, proposing that our built environment can be scientifically optimised to enhance productivity, reduce stress, and promote social cohesion. The design of a hospital, a school, or a workplace, therefore, carries a profound responsibility that extends far beyond mere aesthetics or structural integrity.</p>
+  <p class="p2">The skylines of the world's great cities serve as a compelling visual chronicle of technological progress and shifting cultural values. From the stone cathedrals of the medieval era, which represented the pinnacle of engineering and the glory of the divine, to the steel-and-glass monoliths of the 20th century that celebrated corporate power and industrial efficiency, each epoch has left its indelible mark. Today, a new narrative is being inscribed upon the urban landscape, one driven by sustainability and biophilic design. We are witnessing the rise of the "living building," a structure that aims to be both a functional part of the city and a restorative element of the natural ecosystem, generating its own energy and cleaning its own water.</p>
+  <p class="p3">In the discourse of urban development, the concept of 'adaptive reuse' has emerged as a powerful counter-narrative to the destructive cycle of demolition and new construction. This practice involves the repurposing of old, often historic, buildings for entirely new functions—a derelict factory transformed into loft apartments, a decommissioned power station reborn as a contemporary art gallery. Such projects are not merely acts of architectural recycling; they are acts of cultural preservation that maintain the historical texture and unique character of a community. They offer a tangible link to the past while providing innovative solutions for the present, proving that progress does not always necessitate erasure, but can instead be built upon the enduring foundations of what came before.</p>
+
+  <br>
+
+  <!-- H1 HIGHLIGHTS -->
+  <h1 style="color: blue; font-style: italic;">The Silent Influence: How Our Surroundings Shape Thought</h1>
+  <h1 class="h1internal">A Vertical History: Reading the Past in a City's Skyline</h1>
+  <h1 class="h1external">New Life for Old Stones: The Philosophy of Adaptive Reuse</h1>
+
+  <br>
+
+  <!-- H3 BUILDINGS -->
+  <h3 style="color: blue; font-style: italic;">Neuroscience and Spatial Design</h3>
+  <h3 class="h3internal">The Architecture of Skyscrapers</h3>
+  <h3 class="h3external">Historic Building Preservation</h3>
+
+</body>
+</html>
