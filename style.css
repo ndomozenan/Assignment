@@ -7,7 +7,7 @@
 /* Highlight 3 external CSS */
 .h1external {
   color: purple;
-  font-style: italic;
+  text-decoration: underline;
 }
 
 /* Building 3 external CSS */
